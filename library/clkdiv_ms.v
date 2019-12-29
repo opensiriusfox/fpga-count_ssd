@@ -7,7 +7,7 @@ module clkdiv_ms (
 `ifdef SIMULATION_TIME
 	assign clk_out = counter[2];
 `else
-	assign clk_out = counter[23];
+	assign clk_out = counter[22];
 `endif
 
 	initial begin
