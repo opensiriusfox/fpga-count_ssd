@@ -1,0 +1,11 @@
+.directory
+*~
+*.rpt
+*.asc
+*.blif
+*.json
+*.vcd
+*_syn.v
+*tb
+*.bin
+.lastmake
