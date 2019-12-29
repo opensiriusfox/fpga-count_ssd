@@ -74,6 +74,9 @@ sudo-prog: $(PROJ).bin
 	@echo 'Executing prog as root!!!'
 	sudo tinyprog -p $<
 
+current:
+	tinyprog -b
+
 clean:
 	rm -f $(PROJ).blif $(PROJ).asc $(PROJ).rpt $(PROJ).bin $(PROJ).json
 
